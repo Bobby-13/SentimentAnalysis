@@ -1,7 +1,7 @@
 from textblob import TextBlob
 import streamlit as st
 
-st.title("FEEDBACK CLASSIFIER")
+st.title("Sentiment Analysis")
 # label=st.subheader("Feedback")
 
 area=st.text_area(" ", value="", height=200, max_chars=None, key=None, help=None,placeholder="Hi Welcome Please Enter the Sentence....")
