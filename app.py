@@ -13,8 +13,12 @@ if st.button("Predict"):
         if blob.sentiment.polarity >0:
             # st.write(area)
             st.subheader("Positive Feedback")
+
+        elif sentiment_polarity < 0:
+             st.subheader("Negative Feedback")
+    
         else:
-            st.subheader("Negative Feedback")
+            st.subheader("Neutral Feedback")
     else:
         st.subheader("Enter  Max 5 words")
 hide="""
