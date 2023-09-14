@@ -14,7 +14,7 @@ if st.button("Predict"):
             # st.write(area)
             st.subheader("Positive Feedback")
 
-        elif blob.sentiment.polarity >0
+        elif blob.sentiment.polarity < 0:
              st.subheader("Negative Feedback")
     
         else:
